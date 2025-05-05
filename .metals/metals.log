@@ -1975,3 +1975,85 @@ May 05, 2025 6:01:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 15516
 May 05, 2025 6:01:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+May 05, 2025 6:05:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "vscode-chat-code-block://ade8cf71-b8bf-468b-8ca5-2cd839d7c255/response_5fcbf949-2917-43fa-9cd4-13ae86e47da8/1#%7B%22references%22%3A%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5Candre%5C%5CDesktop%5C%5CDev%5C%5Cscala%5C%5Csrc%5C%5Cmain%5C%5Cscala%5C%5Cexample%5C%5CGenerator.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2Fandre%2FDesktop%2FDev%2Fscala%2Fsrc%2Fmain%2Fscala%2Fexample%2FGenerator.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fandre%2FDesktop%2FDev%2Fscala%2Fsrc%2Fmain%2Fscala%2Fexample%2FGenerator.scala%22%2C%22scheme%22%3A%22file%22%7D%7D%2C%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5Candre%5C%5CDesktop%5C%5CDev%5C%5Cscala%5C%5Csrc%5C%5Cmain%5C%5Cscala%5C%5Cexample%5C%5CMain.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2Fandre%2FDesktop%2FDev%2Fscala%2Fsrc%2Fmain%2Fscala%2Fexample%2FMain.scala%22%2C%22path%22%3A%22%2Fc%3A%2FUsers%2Fandre%2FDesktop%2FDev%2Fscala%2Fsrc%2Fmain%2Fscala%2Fexample%2FMain.scala%22%2C%22scheme%22%3A%22file%22%7D%7D%2C%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5Candre%5C%5CDesktop%5C%5CDev%5C%5Cscala%5C%5Csrc%5C%5Cmain%5C%5Cscala%5C%5Cexample%5C%5CSolar.scala%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fc%253A%2FUsers%2Fandre%2FDesktop%2FDev%2Fscala%2Fsrc%2Fmain%2Fscala%2Fexample%2FSolar.scala%22%2C%22path%22%3A%22%2FC%3A%2FUsers%2Fandre%2FDesktop%2FDev%2Fscala%2Fsrc%2Fmain%2Fscala%2Fexample%2FSolar.scala%22%2C%22scheme%22%3A%22file%22%7D%7D%5D%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "vscode-chat-code-block" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:130)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:190)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:777)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:774)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:775)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+May 05, 2025 6:06:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15618
+2025.05.05 18:06:09 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2025.05.05 18:06:09 INFO  time: compiled scala_f4dd477a3a in 0.32s
+May 05, 2025 6:08:49 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: C:\Users\andre\Desktop\Dev\scala\.metals\.reports\metals-full\2025-05-04\r_empty-definition_(scala_f4dd477a3a)_12-26-09-160.md)
+Exception in thread "pool-5-thread-11" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025.05.05 18:08:56 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2025.05.05 18:08:56 INFO  time: compiled scala_f4dd477a3a in 0.3s
+May 05, 2025 6:09:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15838
+May 05, 2025 6:09:05 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: C:\Users\andre\Desktop\Dev\scala\.metals\.reports\metals-full\2025-05-04\r_empty-definition_(scala_f4dd477a3a)_12-26-09-160.md)
+2025.05.05 18:09:13 INFO  compiling scala_f4dd477a3a (1 scala source)
+2025.05.05 18:09:13 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2025.05.05 18:09:14 WARN  Could not load snapshot text for C:\Users\andre\Desktop\Dev\scala\src\main\scala\example\Main.scala
+2025.05.05 18:09:30 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2025.05.05 18:09:30 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2025.05.05 18:09:30 WARN  Could not load snapshot text for C:\Users\andre\Desktop\Dev\scala\src\main\scala\example\Main.scala
+2025.05.05 18:09:31 WARN  Could not load snapshot text for C:\Users\andre\Desktop\Dev\scala\src\main\scala\example\Main.scala
+2025.05.05 18:09:38 WARN  Could not load snapshot text for C:\Users\andre\Desktop\Dev\scala\src\main\scala\example\Main.scala
+2025.05.05 18:09:39 WARN  Could not load snapshot text for C:\Users\andre\Desktop\Dev\scala\src\main\scala\example\Main.scala
+2025.05.05 18:09:40 WARN  Could not load snapshot text for C:\Users\andre\Desktop\Dev\scala\src\main\scala\example\Main.scala
+2025.05.05 18:09:39 WARN  Could not load snapshot text for C:\Users\andre\Desktop\Dev\scala\src\main\scala\example\Main.scala
+2025.05.05 18:09:42 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2025.05.05 18:09:42 INFO  time: compiled scala_f4dd477a3a in 0.25s
+2025.05.05 18:09:48 INFO  compiling scala_f4dd477a3a (1 scala source)
+2025.05.05 18:09:48 INFO  time: compiled scala_f4dd477a3a in 0.21s
+2025.05.05 18:11:13 INFO  compiling scala_f4dd477a3a (1 scala source)
+2025.05.05 18:11:13 INFO  time: compiled scala_f4dd477a3a in 0.11s
+May 05, 2025 6:11:15 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: C:\Users\andre\Desktop\Dev\scala\.metals\.reports\metals-full\2025-05-04\r_empty-definition_(scala_f4dd477a3a)_12-26-09-160.md)
+2025.05.05 18:11:15 INFO  compiling scala_f4dd477a3a (1 scala source)
+2025.05.05 18:11:15 INFO  time: compiled scala_f4dd477a3a in 0.22s
+May 05, 2025 6:13:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16544
+2025.05.05 18:17:33 INFO  compiling scala_f4dd477a3a (1 scala source)
+2025.05.05 18:17:33 INFO  time: compiled scala_f4dd477a3a in 0.22s
+2025.05.05 18:17:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2025.05.05 18:17:51 INFO  time: compiled scala_f4dd477a3a in 0.17s
+May 05, 2025 6:21:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17265
+May 05, 2025 6:27:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
