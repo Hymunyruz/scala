@@ -1,0 +1,145 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_1.scala:20:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m20 |[0mprintln(operateOnList(list, oddToEven)) [34m// List(2, 2, 4, 4)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_1.scala:40:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m40 |[0mprintln(filerAndMap(List([31m"adadad"[0m,[31m"adad"[0m,[31m"asdadsasda"[0m), greaterLength, concat)) [34m// List(adadad6, adad4)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_1.scala:51:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m51 |[0mprintln(listTransformation(List([31m"asdasd"[0m,[31m"aasdasd"[0m), concat)) [34m// List(asdasd6, aasdasd7)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_4.scala:8:0 ---------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0mprintln([31m"squares: "[0m + squares)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_4.scala:11:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m11 |[0mprintln([31m"even squares: "[0m + evenSquares)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_4.scala:14:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0mprintln([31m"even set: "[0m + evenSet)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_4.scala:17:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0mprintln([31m"sum of even set: "[0m + sum)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_4.scala:20:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m20 |[0mprintln([31m"squares map: "[0m + squaresMap)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_4.scala:23:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m23 |[0mprintln([31m"11 or else: "[0m + elevenOrElse)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_4.scala:39:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m39 |[0mprintln([31m"task 1 example for Seq(\"hello\",\"world\",\"hello\",\"scala\",\"world\"): "[0m + removeDuplicates(seq)) [34m// List(hello, world, scala)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_4.scala:56:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m56 |[0mprintln([31m"task 2 example: findCommonElements(Set(1,2,3,4),Set(3,4,5,6,7)): "[0m+ findCommonElements(Set([31m1[0m,[31m2[0m,[31m3[0m,[31m4[0m),Set([31m3[0m,[31m4[0m,[31m5[0m,[31m6[0m,[31m7[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_4.scala:72:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m72 |[0mprintln([31m"task 3 removeKeys(Map(1 -> \"one\", 2 -> \"two\", 3 -> \"three\"), List(1,2)): "[0m + removeKeys(Map([31m1[0m -> [31m"one"[0m, [31m2[0m -> [31m"two"[0m, [31m3[0m -> [31m"three"[0m), List([31m1[0m,[31m2[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_5.scala.scala:10:0 --[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0mprintln(getAvarage(List([31m1[0m,[31m2[0m,[31m3[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_5.scala.scala:32:0 --[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m32 |[0mprintln(makeAllSounds(List([33mnew[0m [35mBird[0m, [33mnew[0m [35mBird[0m, [33mnew[0m [35mBird[0m)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_6.scala:16:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0mprintln([31m"Task 1:"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_6.scala:21:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0mprintln(new_list.foreach([36melem[0m => println(elem)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_6.scala:37:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m37 |[0mprintln([31m"Task 2:"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_6.scala:44:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m44 |[0mprintln([31ms"list of grades after .flatMap: [0m$list_of_grades[31m"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_6.scala:64:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m64 |[0mprintln([31m"Task 3:"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_6.scala:71:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m71 |[0mprintln(rightValues.foldLeft([31m0[0m)(_+_))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_6.scala:89:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m89 |[0mprintln([31m"Task 4:"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: C:\Users\andre\Desktop\Dev\scala\w_7.scala:18:0 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0mprintln([31m"Task 4:"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mIllegal start of toplevel definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E161] Naming Error: C:\Users\andre\Desktop\Dev\scala\w_6.scala:15:4 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m[33mval[0m [36mlist[0m = List([31m1[0m,[31m2[0m,[31m3[0m,[31m4[0m,[31m5[0m,[31m6[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mlist is already defined as [33mvalue[0m [35mlist[0m in C:\Users\andre\Desktop\Dev\scala\w_1.scala[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E161] Naming Error: C:\Users\andre\Desktop\Dev\scala\w_7.scala:15:4 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m[33mval[0m [36mlist_1[0m = List([31m"sdfsdferrorsdfdsf"[0m,[31m"asdfdf"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mlist_1 is already defined as [33mvalue[0m [35mlist_1[0m in C:\Users\andre\Desktop\Dev\scala\w_6.scala[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E161] Naming Error: C:\Users\andre\Desktop\Dev\scala\w_7.scala:16:4 --------[0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m[33mval[0m [36mlist_2[0m = List([31m"csdgsdg"[0m,[31m"sgfdnasdg"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mlist_2 is already defined as [33mvalue[0m [35mlist_2[0m in C:\Users\andre\Desktop\Dev\scala\w_6.scala[0m
+[0m[[0m[31merror[0m] [0m[0m25 errors found[0m
