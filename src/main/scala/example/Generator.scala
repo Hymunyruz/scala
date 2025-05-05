@@ -11,7 +11,7 @@ import java.io.FileWriter
 abstract class Generator(val id: String) {
 
   val filePath: String = s"$id.csv"
-  
+  private val dateFormat = DateTimeFormatter.ISO_LOCAL_DATE
 
   def readProductionHistory(): List[(LocalDate, Double)] = {
     if !File(filePath).exists then return List()

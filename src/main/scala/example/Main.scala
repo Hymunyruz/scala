@@ -21,8 +21,8 @@ def menu(solarList: List[Generator], waterList: List[Generator], windList: List[
 
   input match
     case 1 =>
-      val (s, w, h) = createGenerator(solarList, waterList, windList)
-      menu(s, h, w)
+      val (solar, water, wind) = createGenerator(solarList, waterList, windList)
+      menu(solar, water, wind)
     case 2 =>
       listGenerators(solarList, waterList, windList)
       menu(solarList, waterList, windList)
@@ -52,7 +52,10 @@ def menu(solarList: List[Generator], waterList: List[Generator], windList: List[
 def createGenerator(solar: List[Generator], water: List[Generator], wind: List[Generator]): (List[Generator], List[Generator], List[Generator]) = {
   println("\nWhich generator do you want to create?")
   println("1) Solar\n2) Water\n3) Wind")
-  readInt() match
+
+  val choice = readInt()
+
+  choice match
     case 1 =>
       val id = s"Solar-${solar.length + 1}"
       (solar :+ new Solar(id), water, wind)
